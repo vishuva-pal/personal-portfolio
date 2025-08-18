@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Performance chart logo">
+  <title>Performance Chart Logo</title>
+  <g fill="none" stroke="#FFBC5E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer frame (window) -->
+    <rect x="8" y="10" width="112" height="90" rx="12"/>
+    <!-- Window header dots -->
+    <circle cx="24" cy="24" r="3"/>
+    <circle cx="36" cy="24" r="3"/>
+    <circle cx="48" cy="24" r="3"/>
+    <!-- Axes -->
+    <path d="M28 88V44M28 88H104"/>
+    <!-- Rising performance line -->
+    <path d="M32 80 L52 68 L70 74 L86 56 L104 48"/>
+    <!-- Arrow head at the end of line -->
+    <path d="M104 48 l-6 -2 m6 2 l-2 6"/>
+    <!-- Data points -->
+    <circle cx="32" cy="80" r="3"/>
+    <circle cx="52" cy="68" r="3"/>
+    <circle cx="70" cy="74" r="3"/>
+    <circle cx="86" cy="56" r="3"/>
+    <circle cx="104" cy="48" r="3"/>
+  </g>
+  <!-- Optional stand -->
+  <g fill="none" stroke="#FFBC5E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 110h32M54 110l-8 8M74 110l8 8"/>
+  </g>
+</svg>
